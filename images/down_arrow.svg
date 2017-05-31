@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>48</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="48">
+            <path d="M23,44 L46,24" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+            <path d="M2,23 L23,44" id="Line-Copy" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+            <text id="SCROLL" font-family="AvenirNext-Regular, Avenir Next" font-size="10" font-weight="normal" letter-spacing="-0.086666666" fill="#9B9B9B">
+                <tspan x="5" y="12">SCROLL</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

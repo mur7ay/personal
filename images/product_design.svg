@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="140px" viewBox="0 0 128 140" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>128</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="57" y="48" width="14.4715308" height="3.64121144"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="14.4715308" height="3.64121144" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="128">
+            <path d="M27,80.4851002 C27,80.4851002 29.2704735,66.7170791 38.7640692,57.7502863 C45.4257525,51.458262 58.7680992,49 63.9404864,49 C69.4933472,49 83.498915,50.5632509 90.7949347,57.7502863 C99.3755608,66.2027392 100.880973,80.4851002 100.880973,80.4851002" id="Line" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
+            <use id="Rectangle" stroke="#FFFFFF" mask="url(#mask-2)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-1"></use>
+            <ellipse id="Oval" stroke="#979797" stroke-width="3" cx="26.6165951" cy="89.2824229" rx="7.61659513" ry="7.28242289"></ellipse>
+            <ellipse id="Oval-Copy" stroke="#979797" stroke-width="3" cx="102.616595" cy="89.2824229" rx="7.61659513" ry="7.28242289"></ellipse>
+            <ellipse id="Oval-Copy-2" stroke="#979797" stroke-width="3" cx="63.6165951" cy="51.2824229" rx="7.61659513" ry="7.28242289"></ellipse>
+            <path d="M70.3808298,47.5 L107.702146,47.5" id="Line" stroke="#979797" stroke-linecap="square" fill="#9B9B9B"></path>
+            <path id="Line-decoration-1" d="M107.702146,47.5 L96.9021459,44.5 L96.9021459,50.5 L107.702146,47.5 Z" stroke="#979797" stroke-linecap="square" fill="#9B9B9B"></path>
+            <path d="M56.3213162,49 L19,49" id="Line-Copy" stroke="#979797" stroke-linecap="square" fill="#9B9B9B"></path>
+            <path id="Line-Copy-decoration-1" d="M19,49 L29.8,52 L29.8,46 L19,49 Z" stroke="#979797" stroke-linecap="square" fill="#9B9B9B"></path>
+            <text id="PRODUCT-DESIGN" font-family="AvenirNext-Regular, Avenir Next" font-size="10" font-weight="normal" letter-spacing="-0.086666666" fill="#9B9B9B">
+                <tspan x="21" y="136">PRODUCT DESIGN</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

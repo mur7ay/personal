@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="140px" viewBox="0 0 128 140" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>128</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="19" y="29" width="90" height="48" rx="2"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="90" height="48" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="128">
+            <use id="Rectangle" stroke="#979797" mask="url(#mask-2)" stroke-width="6" xlink:href="#path-1"></use>
+            <path d="M64,87.5 L64,76.5" id="Line" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+            <path d="M50,90 L78,90" id="Line" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
+            <text id="DEVELOPMENT" font-family="AvenirNext-Regular, Avenir Next" font-size="10" font-weight="normal" letter-spacing="-0.086666666" fill="#9B9B9B">
+                <tspan x="28" y="136">DEVELOPMENT</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

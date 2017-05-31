@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="140px" viewBox="0 0 128 140" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>128</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="128">
+            <path d="M29,98.5 L100.070371,98.5" id="Line" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M29,95.8713759 C29,95.8713759 29.22856,87.4987317 31.9422911,84.8081432 C34.3785868,82.3926243 44.0461878,78 44.0461878,78" id="Line" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M100.046188,95.8713759 C100.046188,95.8713759 99.8176279,87.4987317 97.1038967,84.8081432 C94.667601,82.3926243 85,78 85,78" id="Line-Copy" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M40.9586096,79.3830407 C40.9586096,79.3830407 44.0097762,78.1170812 47.297472,76.6313829 C49.8460723,75.4796793 52.729512,74.1488648 53.2210135,73.4720454 C54.1554854,72.185236 53.2210135,69 53.2210135,69" id="Line" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M88.3381964,79.7364816 C88.3381964,79.7364816 85.9426913,78.1504551 82.8163761,76.9357862 C80.0558498,75.8632376 77.3412328,75.095046 76.813432,74.3682408 C75.8789601,73.0814315 75,69 75,69" id="Line-Copy-2" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
+            <ellipse id="Oval" stroke="#979797" stroke-width="3" cx="63.6775766" cy="51.9774833" rx="14.6775766" ry="22.9774833"></ellipse>
+            <text id="TEAM-LEAD" font-family="AvenirNext-Regular, Avenir Next" font-size="10" font-weight="normal" letter-spacing="-0.086666666" fill="#9B9B9B">
+                <tspan x="37" y="136">TEAM LEAD</tspan>
+            </text>
+            <path d="M55.4580141,65.4656109 C55.4580141,65.4656109 55.7502247,71.2601599 56.981881,73.9532114 C57.7877416,75.7152483 59.4318055,74.6313532 60.1434192,75.0061322 C61.5818955,75.7637211 62.8813574,75.0061322 64,75.0061322 C65.1302398,75.0061322 66.4311003,74.7331367 67.8996893,73.9532114 C68.6731624,73.542442 71.1035186,74.7373463 71.7904484,73.9532114 C72.3489328,73.3156978 72.5865987,69.7708732 72.657263,67.4792279 C72.6970799,66.1879642 72.657263,65.4656109 72.657263,65.4656109" id="Line" stroke="#FFFFFF" stroke-width="3" stroke-linecap="square" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

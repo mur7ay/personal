@@ -1,0 +1,550 @@
+@media screen and (min-width: 1400px) and (max-width: 1500px) {
+  body {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (min-width: 1501px) and (max-width: 1600px) {
+  body {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (min-width: 1601px) and (max-width: 1700px) {
+  body {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media screen and (min-width: 1701px) {
+  body {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+.hamburger_menu {
+  margin-top: 20px;
+  margin-right: 40px;
+  float: right;
+}
+
+@media screen and (min-width: 400px) and (max-width: 550px) {
+  .hamburger_menu {
+    margin-right: 20px;
+  }
+}
+
+.top-section {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  height: 210px;
+  top: 0; right: 0; bottom: 0; left: 0;
+}
+
+.top-section h4 {
+  letter-spacing: 9px;
+  margin-top: -30px;
+}
+
+.my_name {
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 80px;
+  font-size: 400%;
+  text-shadow: 2px 2px 8px #838383;
+}
+
+@media screen and (min-width: 400px) and (max-width: 550px) {
+  .my_name {
+    font-size: 250%;
+    padding-top: 30%;
+  }
+}
+
+#galaxy {
+  display: block;
+  margin: 10px auto;
+}
+
+@media screen and (min-width: 400px) and (max-width: 550px) {
+  .top-section h4 {
+    letter-spacing: 6px;
+    font-size: 16px;
+  }
+  .hamburger_menu {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.container {
+  position: absolute;
+  text-align: center;
+  margin-top: 40px;
+}
+
+@keyframes bounce{
+   0%    { transform: translateY(0); }
+   20%   { transform: translateY(0); }
+   40%   { transform: translateY(-50%); }
+   50%   { transform: translateY(0); }
+   60%   { transform: translateY(-20%); }
+   80%   { transform: translateY(0); }
+   100%  { transform: translateY(0); }
+}
+@-webkit-keyframes bounce {
+   0%    { -webkit-transform: translateY(0); }
+   20%   { -webkit-transform: translateY(0); }
+   40%   { -webkit-transform: translateY(-50%); }
+   50%   { -webkit-transform: translateY(0); }
+   60%   { -webkit-transform: translateY(-20%); }
+   80%   { -webkit-transform: translateY(0); }
+   100%  { -webkit-transform: translateY(0); }
+}
+@-moz-keyframes bounce {
+   0%    { -moz-transform: translateY(0); }
+   20%   { -moz-transform: translateY(0); }
+   40%   { -moz-transform: translateY(-50%); }
+   50%   { -moz-transform: translateY(0); }
+   60%   { -moz-transform: translateY(-20%); }
+   80%   { -moz-transform: translateY(0); }
+   100%  { -moz-transform: translateY(0); }
+}
+
+.down_arrow {
+  text-align: center;
+  margin-top: 12%;
+  -webkit-animation: 1000ms bounce infinite;
+  animation: 1000ms bounce infinite;
+}
+
+@media screen and (min-width: 400px) and (max-width: 550px) {
+  .down_arrow {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+}
+
+/* The Overlay (background) */
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0); /* Black fallback color */
+    background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+.about {
+  height: 438px;
+  width: 100%;
+  background-color: #f5f4f0;
+}
+
+@media screen and (min-width: 400px) and (max-width: 950px) {
+  .about {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.color_me_rad {
+  display:block;
+  margin:auto;
+}
+
+@media screen and (min-width: 400px) and (max-width: 2000px) {
+  .color_me_rad {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.about_me {
+  overflow: hidden;
+  text-align: center;
+  margin-top: 150px;
+}
+
+@media screen and (min-width: 400px) and (max-width: 900px) {
+  .about_me {
+    margin-top: 20px;
+  }
+}
+
+.about_me h1 {
+  margin-top: 90px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+@media screen and (min-width: 400px) and (max-width: 550px) {
+  .about_me h1 {
+    margin-top: 70px;
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .about-me-400 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 899px) {
+  .about-me-400 {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+.icon {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  visibility: hidden;
+}
+
+@media screen and (min-width: 400px) and (max-width: 550px) {
+  .icon {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 551px) and (max-width: 1000px) {
+  .icon {
+    width: 130px;
+    height: 130px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+/* Fading in the icons as the user scrolls */
+.fadeIn {
+  -webkit-animation: animat_show 0.8s;
+  animation: animat_show 0.8s;
+  visibility: visible !important;
+}
+
+@webkit-keyframes animat_show {
+  0%{opacity:0}
+  100%{opacity: 1}
+}
+
+.brief_desc {
+  text-align: right;
+  font-family: 'Open Sans', sans-serif;
+  float: left;
+  width: 50%;
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+.brief_desc p {
+  padding-left: 300px;
+  padding-right: 15px;
+  color: #505050;
+}
+
+@media screen and (min-width: 400px) and (max-width: 900px) {
+  .brief_desc p {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1500px) {
+  .brief_desc p {
+    padding-left: 150px;
+    font-size: 25px;
+  }
+}
+
+.detailed_desc {
+  float: right;
+  text-align: left;
+  margin-top: 55px;
+  width: 50%;
+}
+
+.detailed_desc p {
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 15px;
+  padding-right: 270px;
+  color: #909090;
+}
+
+@media screen and (min-width: 400px) and (max-width: 900px) {
+  .detailed_desc p {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1500px) {
+  .detailed_desc p {
+    padding-right: 170px;
+  }
+}
+
+/*
+.work_flow {
+  background-color: #f5f4f0;
+  text-align: center;
+  height: 400px;
+  font-family: 'Open Sans', sans-serif;
+}
+*/
+
+.blah {
+  padding-top: 60px;
+}
+
+.skills {
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.center {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 535px) and (max-width: 650px) {
+  .center {
+    width: auto;
+  }
+}
+
+.skill_icons {
+  height: 120px;
+  width: 105px;
+}
+
+@media screen and (min-width: 400px) and (max-width: 535px) {
+  .skill_icons {
+    height: 70px;
+    width: 70px;
+  }
+  .center {
+    width: 70%;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 536px) {
+  .skill_icons {
+    height: 60px;
+    width: 60px;
+  }
+  .center {
+    text-align: center;
+  }
+}
+
+.skills h1 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.projects {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f5f4f0;
+}
+
+.projects h1 {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.project_buttons {
+  padding: 15px 32px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  width: 200px;
+  border: none;
+  background-color: #575757;
+  color: white;
+}
+
+.project_buttons:hover {
+  color: #575757;
+  background-color: white;
+}
+
+.project_images {
+  margin-top: 30px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+#images {
+  border-radius: 25px;
+  margin-top: 25px;
+}
+
+@media screen and (min-width: 400px) and (max-width: 550px) {
+  #images {
+    width: 330px;
+    height: 210px;
+    margin-top: 20px;
+  }
+  .project_buttons {
+    margin-top: 10px;
+  }
+}
+
+#images:hover {
+  opacity: 0.3;
+}
+
+.stalk_me {
+  /*background-color: #f5f4f0;*/
+  height: 300px;
+  background-color: #fff;
+}
+
+.stalk_me h1 {
+  padding-top: 60px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: #7D7D7D;
+}
+
+.fa_icons {
+  text-align: center;
+}
+
+@media screen and (min-width: 400px) and (max-width: 603px) {
+  .fa_icons {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .stalk_me {
+    height: 250px;
+  }
+  #stalk-icons {
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-right: 30px;
+  }
+}
+
+.fa {
+  color: #C0C0C0;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.fa-paper-plane:hover {
+    color: red;
+}
+
+.fa-github:hover {
+  color: #96CFFF;
+}
+
+.fa-twitter:hover {
+  color: #6FBDFF;
+}
+
+.fa-linkedin:hover {
+  color: #0F80DF;
+}
+
+.contact_me {
+  height: 350px;
+  background-color: #f5f4f0;
+}
+
+.iconss {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.iconss h2 {
+  color: #7D7D7D;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.iconss p {
+  color: #C0C0C0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.fa-paper-plane-o {
+  text-align: center;
+}
+
+.button {
+  padding: 15px 32px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+.button:hover {
+  background-color: #575757;
+  color: white;
+  border: none;
+}
